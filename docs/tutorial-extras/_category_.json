@@ -1,7 +1,4 @@
 {
-  "label": "Tutorial - Extras",
-  "position": 3,
-  "link": {
-    "type": "generated-index"
-  }
+  "label": "Docusaurus - Extras",
+  "position": 6
 }

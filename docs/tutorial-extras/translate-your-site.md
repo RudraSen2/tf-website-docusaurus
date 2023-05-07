@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+draft: true
 ---
 
 # Translate your site
@@ -13,8 +14,8 @@ Modify `docusaurus.config.js` to add support for the `fr` locale:
 ```js title="docusaurus.config.js"
 module.exports = {
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
+    defaultLocale: "en",
+    locales: ["en", "fr"],
   },
 };
 ```
@@ -39,7 +40,7 @@ Start your site on the French locale:
 npm run start -- --locale fr
 ```
 
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
+Your localized site is accessible at `http://localhost:3000/fr/` and the `Getting Started` page is translated.
 
 :::caution
 
@@ -60,7 +61,7 @@ module.exports = {
       items: [
         // highlight-start
         {
-          type: 'localeDropdown',
+          type: "localeDropdown",
         },
         // highlight-end
       ],
@@ -71,7 +72,7 @@ module.exports = {
 
 The locale dropdown now appears in your navbar:
 
-![Locale Dropdown](./img/localeDropdown.png)
+![Locale Dropdown](https://cdn.jsdelivr.net/gh/Comp-Labs/cdn/img/tutorial/localeDropdown.png)
 
 ## Build your localized site
 
