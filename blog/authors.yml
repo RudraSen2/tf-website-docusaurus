@@ -1,17 +1,13 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+tech-fiddle:
+  name: Tech Fiddle
+  title: Blog Editor
+  url: https://complabs.in
+  image_url: https://github.com/comp-labs.png
+  github: https://github.com/Comp-Labs/
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+rudra-sen:
+  name: Rudra Sen
+  title: Creator of Tech Fiddle
+  url: https://github.com/Comp-Labs
+  image_url: https://github.com/rudrasen2.png
+  github: https://github.com/RudraSen2

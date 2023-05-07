@@ -1,41 +1,17 @@
-# Website
+# <p align="center">Tech Fiddle Website</p>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe016cee-ab6a-46fa-afc2-aebca22fcb38/deploy-status)](https://app.netlify.com/sites/comp-labs/deploys)
 
-### Installation
+<hr />
 
-```
-$ yarn
-```
+This Repository Contains source code for the [Tech Fiddle Website](https://github.com/Comp-Labs/comp-labs-website).
 
-### Local Development
+Written in ReactJS, Markdown, and MDX. Built using [Docusaurus](docusaurus.io). Deploys with [Netlify](netlify.com).
 
-```
-$ yarn start
-```
+[Visit Website](https://complabs.in)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<footer>
+<p align="center" style="font-size: smaller;">
+Built with ❤️ by Tech Fiddle.
+</p>
+</footer>
