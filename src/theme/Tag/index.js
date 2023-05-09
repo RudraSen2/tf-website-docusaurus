@@ -1,17 +1,19 @@
 import React from 'react';
+import Chip from "@mui/joy/Chip";
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
-export default function Tag({permalink, label, count}) {
+export default function Tag({ permalink, label, count }) {
   return (
-    <Link
+    <Chip
+      color="primary"
+      variant="soft"
+      component="a"
       href={permalink}
-      className={clsx(
-        styles.tag,
-        count ? styles.tagWithCount : styles.tagRegular,
-      )}>
+    >
       {label}
-      {count && <span>{count}</span>}
-    </Link>
+      {count && <div className="space" />}
+      {count && <code>{count}</code>}
+    </Chip>
   );
 }
