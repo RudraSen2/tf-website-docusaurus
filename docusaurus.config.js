@@ -302,6 +302,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
             { to: "/docs", label: "🚧 Docs", position: "left" },
             { to: "blog", label: "Guides", position: "left" },
             { to: "/apps", label: "Apps", position: "left" },
+            { to: "/showcase", label: "Showcase", position: "left" },
             // { to: "/products", label: "Products", position: "left" },
             // { to: "/tools", label: "Tools", position: "left" },
             { to: "/contact", label: "Contact Us", position: "left" },
@@ -368,6 +369,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
                 {
                   label: "Apps",
                   to: "/apps",
+                },
+                {
+                  label: "Showcase",
+                  to: "/showcase"
                 },
                 // {
                 //   label: "Products",
