@@ -39,7 +39,7 @@
     "@giscus/react": "^2.2.8",
     "@happyreact/react": "^0.1.1",
     "@lyket/react": "^2.1.0",
-    "@mdx-js/react": "^1.6.22",
+    "@mdx-js/react": "^2.3.0",
     "@microlink/react": "^5.5.15",
     "@mui/base": "^5.0.0-alpha.128",
     "@mui/icons-material": "^5.11.16",
