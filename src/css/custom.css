@@ -101,16 +101,8 @@
   --ifm-color-primary: #1a90ff;
 
   /* --ifm-footer-background-color: #1c1c1c; */
-  --ifm-background-surface-color: linear-gradient(
-      rgb(10, 25, 41) 0%,
-      rgb(0, 30, 60) 100%
-    )
-    0% 0% / 100% 300px no-repeat;
-  --ifm-background-color: linear-gradient(
-      rgb(10, 25, 41) 0%,
-      rgb(0, 30, 60) 100%
-    )
-    0% 0% / 100% 300px no-repeat;
+  --ifm-background-surface-color: @apply from-gray-800 dark:to-gray-900;
+  --ifm-background-color: @apply from-gray-800 dark:to-gray-900;
 
   --ifm-color-content: #e7e7e7;
 }
@@ -131,14 +123,14 @@ code {
   font-variant-ligatures: none;
 }
 
-.docusaurusLink {
-  text-decoration: none;
-  color: black;
-}
-
-html[data-theme="dark"] .docusaurusLink {
+.docusaurusLink:hover {
   text-decoration: none;
   color: white;
+}
+
+html[data-theme="dark"] .docusaurusLink:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .card:hover {
